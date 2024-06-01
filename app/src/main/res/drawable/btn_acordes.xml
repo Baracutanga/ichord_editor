@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <size android:width="75dp" android:height="125dp"/>
+            <solid android:color="#6E8299" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item android:width="78dp" android:height="3dp">
+        <shape>
+            <solid android:color="#40475A" />
+            <corners android:topLeftRadius="3dp" />
+        </shape>
+    </item>
+    <item android:width="3dp" android:height="128dp">
+        <shape>
+            <solid android:color="#40475A" />
+            <corners android:topLeftRadius="3dp"
+                android:bottomLeftRadius="3dp"/>
+        </shape>
+    </item>
+    <item android:width="78dp" android:height="3dp" android:top="125dp">
+        <shape>
+            <solid android:color="#40475A" />
+            <corners android:bottomLeftRadius="3dp" />
+        </shape>
+    </item>
+<!--      Ultimo acorde usado-->
+        <item android:drawable="@drawable/acorde_base"
+            android:width="53dp"
+            android:height="75dp" android:gravity="center"
+            android:left="5dp"/>
+
+</layer-list>

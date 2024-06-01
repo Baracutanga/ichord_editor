@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fundo -->
+    <item>
+        <shape>
+            <size android:width="53dp" android:height="75dp"/>
+            <solid android:color="#1F1F1F" />
+            <corners android:topLeftRadius="10dp" android:topRightRadius="10dp" />
+        </shape>
+    </item>
+    <!-- Stroke Top   -->
+    <item android:width="53dp" android:height="10dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+            <corners android:topRightRadius="10dp" android:topLeftRadius="10dp" />
+        </shape>
+    </item>
+    <!--  Corda Ezona  -->
+    <item android:top="10dp" android:width="2dp" android:height="65dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Corda A  -->
+    <item android:left="11dp" android:width="2dp" android:height="75dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!-- Corda D  -->
+    <item android:left="21dp" android:width="2dp" android:height="75dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Corda G  -->
+    <item android:left="31dp" android:width="2dp" android:height="75dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Corda B  -->
+    <item android:left="41dp" android:width="2dp" android:height="75dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Corda Ezinha  -->
+    <item android:left="51dp" android:top="10dp" android:width="2dp" android:height="65dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+
+    <!--  TRASTES  -->
+
+    <!--  Traste 1  -->
+    <item android:top="22dp" android:height="2dp" android:width="53dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Traste 2  -->
+    <item android:top="35dp" android:height="2dp" android:width="53dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Traste 3  -->
+    <item android:top="48dp" android:height="2dp" android:width="53dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+    <!--  Traste 4  -->
+    <item android:top="61dp" android:height="2dp" android:width="53dp">
+        <shape>
+            <solid android:color="#4D4D4D" />
+        </shape>
+    </item>
+</layer-list>
+
